@@ -41,18 +41,10 @@
 
         <Connector port="8080" protocol="HTTP/1.1"
                    connectionTimeout="20000"
+                   address="177.131.142.30"
                    redirectPort="8443"
                    maxParameterCount="1000"/>
-
-        <Connector executor="tomcatThreadPool"
-                   port="8081" protocol="HTTP/1.1"
-                   address="177.131.142.30"
-                   connectionTimeout="20000"
-                   redirectPort="8443"
-                   maxParameterCount="1000"
-                   />
         
-
         <!--
         <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
                    maxThreads="150" SSLEnabled="true"
