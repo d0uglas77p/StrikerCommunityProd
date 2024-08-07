@@ -40,7 +40,7 @@
     <Service name="Catalina">
 
         <Connector port="9090" protocol="HTTP/1.1"
-                   address="177.131.142.30"
+                   address="172.16.226.2"
                    connectionTimeout="20000"
                    redirectPort="8443"
                    maxParameterCount="1000"/>
