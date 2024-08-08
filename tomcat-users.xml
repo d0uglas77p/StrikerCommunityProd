@@ -53,6 +53,6 @@
   <role rolename="admin"/>
   <role rolename="tomcat"/>
   <role rolename="role1"/>
-  <user username="admin" password="comunidade123" roles="manager-gui, manager, admin-gui, admin, tomcat, role1"/>
+  <user username="douglas" password="comunidade123" roles="manager-gui, manager-script, manager-jmx, manager-status, manager, admin-gui, admin, tomcat, role1"/>
 
 </tomcat-users>
